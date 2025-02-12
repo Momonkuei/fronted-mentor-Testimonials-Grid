@@ -71,7 +71,7 @@
       sub-comment="“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”"
       sub-comment-color="#48556A"
       img-url="/images/image-jeanette.jpg"
-      class="xl:col-span-1"
+      class="xl:col-span-1 pb-[26px]"
     >
     </testimonial>
 
@@ -86,7 +86,7 @@
       sub-comment="“ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people.  ”"
       sub-comment-color="#fff"
       img-url="/images/image-patrick.jpg"
-      class="xl:col-span-2"
+      class="xl:col-span-2 pb-[26px]"
     >
     </testimonial>
   </div>
