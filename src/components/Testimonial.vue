@@ -33,7 +33,8 @@
 </template>
 
 <script setup>
-defineProps({
+import { computed } from 'vue'
+const props = defineProps({
   bgColor: String,
   borderColor: String,
   titleColor: String,
@@ -43,6 +44,10 @@ defineProps({
   mainCommentColor: String,
   subComment: String,
   subCommentColor: String,
-  imgUrl: String,
+  imgName: String,
+})
+
+const imgUrl = computed(() => {
+  return new URL(`/src/assets/images/${props.imgName}`, import.meta.url).href
 })
 </script>
